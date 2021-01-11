@@ -1,0 +1,74 @@
+# Site
+name: "SiliconBlast"
+title: "SiliconBlast"
+description: "Data Science, Data Engineering, Software Engineering, AI Research."
+logo: 'assets/images/logo_trans_small.png'
+favicon: 'assets/images/logo_trans_small.png'
+baseurl: 
+google_analytics: #'UA-46278016-1'
+disqus: #'demowebsite'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  ekaba:
+    name: Ekaba Bisong
+    display_name: Ekaba Bisong
+    avatar: 'assets/images/ekaba.jpeg'
+    # gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: ekaba.bisong@siliconblast.com
+    web: http://ekababisong.org/
+    # twitter: https://twitter.com/ekababisong
+    description: "AI Researcher, Google Developer Expert in Machine Learning and author of book “Building Machine Learning and Deep Learning Models on Google Cloud Platform."
+  SiliconBlast:
+    name: SiliconBlast
+    display_name: SiliconBlast Research    
+    avatar: 'assets/images/logo_trans_small.png'
+    # gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: info@siliconblast.com
+    web: https://www.siliconblast.com
+    # twitter: https://twitter.com/wowthemesnet
+    description: "SiliconBlast Research Team."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-redirect-from
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
