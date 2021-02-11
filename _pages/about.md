@@ -53,6 +53,13 @@ comments: false
 </figure>
 </div>
 
+<div class="col-md-4">
+<figure style="text-align: center">
+<a target="_blank" href="#"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/taiwo.png" alt="taiwo adediran" /></a>
+<figcaption> <b>Taiwo Adediran</b> <br> GIS/Data Analyst</figcaption>
+</figure>
+</div>
+
 <!-- <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
