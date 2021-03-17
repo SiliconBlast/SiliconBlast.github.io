@@ -28,9 +28,9 @@ authors:
     avatar: 'assets/images/logo_trans_small.png'
     # gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: info@siliconblast.com
-    web: https://www.siliconblast.com
+    web: https://siliconblast.com
     # twitter: https://twitter.com/wowthemesnet
-    description: "SiliconBlast Research Team."
+    # description: "SiliconBlast Research Team."
 
 # Plugins
 plugins:
